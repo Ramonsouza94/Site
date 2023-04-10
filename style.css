@@ -10,10 +10,15 @@ h1 {
     text-align: center;
 }
 
+p {
+    text-align: center;
+}
+
 nav {
     background-color: rgba(128, 128, 128, 0.829);
     box-shadow: 1px 1px 1px black;
     padding: 10px;
+    border-radius: 5px;
 }
 
 nav > a {
@@ -21,7 +26,7 @@ nav > a {
     font-weight: bold;
     border-radius: 5px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: .5s;
 }
 
 nav > a:hover {
