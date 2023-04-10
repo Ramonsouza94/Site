@@ -34,6 +34,10 @@ nav > a:hover {
     background-color: rgba(0, 0, 0, 0.224);
 }
 
+main {
+    text-align: justify;
+}
+
 footer {
      text-align: center;
      font-family: Georgia, 'Times New Roman', Times, serif;
