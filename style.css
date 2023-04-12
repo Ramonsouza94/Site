@@ -34,12 +34,14 @@ mark {
 p {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    
+    
 }
 
 nav {
     background-color: rgba(128, 128, 128, 0.829);
     box-shadow: 1px 1px 1px black;
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
    
 }
@@ -50,6 +52,7 @@ nav > a {
     border-radius: 5px;
     color: white;
     transition-duration: .5s;
+    padding: 20px;
     
 }
 
@@ -67,6 +70,7 @@ main {
 
 body {
     min-width: 100%; 
+    
 }
 
 img {
@@ -77,10 +81,15 @@ img {
 footer {
      text-align: center;
      font-family: Georgia, 'Times New Roman', Times, serif;
-     background-color: gray;
+     background-color: rgba(128, 128, 128, 0.528);
      color: black;
-     padding: 1px;
+     padding: 10px;
      border-radius: 5px;
+}
+
+footer > a {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
